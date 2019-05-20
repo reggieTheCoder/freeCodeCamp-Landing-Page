@@ -1,0 +1,28 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    line-height: 1.5;
+}
+
+#customer-satisfaction{
+    background-color: white;
+}
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .testimonial-image {
+      width: 35%;
+    }
+  }
+
+
+
+
+
+

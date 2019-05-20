@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--external style sheet-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Landing Page</title>
+</head>
+
+<body class="bg-dark">
+    <!--header-->
+    <header id="header">
+        <div class="container py-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img class="img-fluid" id="header-img" src="/images/header-img-1.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-drop"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-drop">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link nav-item px-4 mb-3 mb-lg-0 pt-4 pt-lg-0" href="#contact"><i
+                                class="fas fa-id-card-alt fa-lg"></i>
+                            Contact</a>
+                        <a class="nav-link nav-item px-4 mb-3 mb-lg-0 pt-4 pt-lg-0" href="#pricing"><i
+                                class="fas fa-dollar-sign fa-lg"></i>
+                            Pricing</a>
+                        <a class="nav-link nav-item px-4 mb-3 mb-lg-0 pt-4 pt-lg-0" href="#"><i
+                                class="fas fa-download fa-lg"></i>
+                            Download</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--end of header-->
+
+    <!--form call to action-->
+    <section id="contact">
+        <div class="container my-5 text-center text-white">
+            <h2 class="font-weight-bold">Staff picked sneakers shipped <br />directly to you monthly</h2>
+            <form action="https://www.freecodecamp.com/email-submit" class="d-flex justify-content-center" id="form">
+                <input class="form-control" type="email" required id="email"
+                    placeholder="please your enter email address">
+                <input class="mx-3 btn btn-success" id="submit" type="submit" value="Get Started!">
+            </form>
+        </div>
+    </section>
+    <!--end of form call to action-->
+
+    <!--promo section-->
+    <section>
+        <div class="container" id="customer-satisfaction">
+            <div class="row mb-md-5">
+                <div class="col-md-3">
+                    <i
+                        class="fas fa-fire fa-4x text-danger d-flex justify-content-center justify-content-md-start mb-3"></i>
+                </div>
+                <div class="col-md-9">
+                    <h3 class="font-weight-bold  text-center text-md-left">Premium Materials</h3>
+                    <p class="text-muted text-center text-md-left">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Minus impedit odio corrupti soluta, quam laudantium veritatis facilis iste officiis
+                        minima.</p>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-3">
+                    <i
+                        class="fas fa-shipping-fast fa-4x text-danger d-flex justify-content-center justify-content-md-start mb-3"></i>
+                </div>
+                <div class="col-md-9">
+                    <h3 class="font-weight-bold text-center text-md-left">Free 2 day Shipping</h3>
+                    <p class="text-muted text-center text-md-left">Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Exercitationem amet obcaecati commodi consectetur rerum nobis, quas ipsam reprehenderit
+                        assumenda mollitia.</p>
+                </div>
+            </div>
+            <div class="row md-md-5">
+                <div class="col-md-3">
+                    <i
+                        class="fas fa-exchange-alt fa-4x text-danger d-flex justify-content-center justify-content-md-start mb-3"></i>
+                </div>
+                <div class="col-md-9">
+                    <h3 class="font-weight-bold text-center text-md-left">Easy Exchange / Return</h3>
+                    <p class="text-muted text-center text-md-left">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Blanditiis iste harum beatae laboriosam laudantium ullam recusandae cum neque qui
+                        sapiente!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--promotional video-->
+    <section class>
+        <div class="container mt-5">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/W1Tfrr7QGrY"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <!--end of promotional video-->
+    <!-- end of promo section-->
+
+    <!--pricing card deck-->
+    <section class="m-5" id="pricing">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card bg-danger text-center">
+                    <div class="card-header text-lead text-uppercase">Per Month</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title font-weight-bold">$120</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                            perferendis.</p>
+                    </div>
+                    <div class="card-footer"><button class="btn btn-dark btn-lg">Select This Plan</button></div>
+                </div>
+                <div class="card bg-danger text-center">
+                    <div class="card-header text-lead text-uppercase">6 Months</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title font-weight-bold">$500</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                            perferendis.</p>
+                    </div>
+                    <div class="card-footer text-center"><button class="btn btn-dark btn-lg">Select This Plan</button>
+                    </div>
+                </div>
+                <div class="card bg-danger text-center">
+                    <div class="card-header text-lead text-uppercase">Annual</div>
+                    <div class="card-body text-dark">
+                        <h5 class="card-title font-weight-bold">$900</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+                            perferendis.</p>
+                    </div>
+                    <div class="card-footer"><button class="btn btn-dark btn-lg">Select This Plan</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of pricing card deck-->
+
+    <!-- testimonials carousel -->
+    <section id="testimonials" class="bg-white">
+        <div id="testimonial-carousel container" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <h2 class="text-center text-muted font-italic">I have been thoroughly impressed with the monthly
+                        staff picks <br>I've received so far. Everything has been a great addition to my collection</h2>
+                    <img class="testimonial-image mx-auto d-block" src="/images/testimonial-img-1.jpg"
+                        alt="testimonial-pic">
+                    <p class="text-center text-muted font-weight-bold">Mike - Detriot</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="text-center text-muted font-italic">Every month I can wait for the next shipment to
+                        arrive! </h2>
+                    <img class="testimonial-image mx-auto d-block" src="/images/testimonial-img-2.jpg"
+                        alt="testimonial-pic">
+                    <p class="text-center text-muted font-weight-bold">Paul - Seattle</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="text-center text-muted font-italic">I get compliments all the time! </h2>
+                    <img class="testimonial-image mx-auto d-block" src="/images/testimonial-img-3.jpg"
+                        alt="testimonial-pic">
+                    <p class="text-center text-muted font-weight-bold">Pam - Denver</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="text-center text-muted font-italic">No time to shop? No problem! Let sneakers inc do it
+                        for you. </h2>
+                    <img class="testimonial-image mx-auto d-block" src="/images/testimonial-img-4.jpg"
+                        alt="testimonial-pic">
+                    <p class="text-center text-muted font-weight-bold">Tina - LA</p>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="text-center text-muted font-italic">By far the easiest way to stay fly </h2>
+                    <img class="testimonial-image mx-auto d-block" src="/images/testimonial-img-5.jpg"
+                        alt="testimonial-pic">
+                    <p class="text-center text-muted font-weight-bold">Lauren - Atlanta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials carousel -->
+
+    <!--footer-->
+    <footer>
+        <div class="container bg-dark mt-5 pt-5 mb-5">
+            <div class="text-right">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a class="text-danger" href="#">Privacy</a>
+                    </li>
+                    <li class="list-inline-item px-5">
+                        <a class="text-danger" href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-danger" href="#">Terms</a>
+                    </li>
+                </ul>
+                <p class="text-muted text-lead">&copy; Reginald Alford 2019, Sneaker inc.</p>
+            </div>
+        </div>
+    </footer>
+    <!--end of footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
